@@ -6,13 +6,6 @@
 /* Grid 1128 */
 
 /* ====================== Basic Reset =============================*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-
 ul,ol {
   list-style: none;
   text-decoration: none;
@@ -54,8 +47,7 @@ body {
   letter-spacing: 0.32px;
   color: var(--text-color);
   background-color: var(--bg-color);
-  margin: 0;
-}
+  }
 .link{
   text-decoration: none;
 }
