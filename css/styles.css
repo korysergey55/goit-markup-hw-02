@@ -52,9 +52,7 @@ body {
   text-decoration: none;
 }
 /* ====================== HEADER =====================================*/
-.header{
-  /* border-bottom: 1px solid #E7E9FC; */
-}
+.header{}
 .header .nav .logo-header{
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -200,7 +198,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* border: 1px solid #E7E9FC; */
   color: var(--akcent-color);
   background-color: var(--bg-color-secindary);
 }
