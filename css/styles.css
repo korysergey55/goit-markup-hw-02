@@ -36,15 +36,17 @@ button{
 
 /* ====================== Inheritance =============================*/
 :root {
-  --text-color: #2E2F42;
-  --text-color-secindary: #434455;
-  --white:#FFF;
-  --bg-color: #FFF;
+  --text-color:#434455;
+  --text-color-secindary: #2E2F42;
+  --logo-color:#2e2f42;
+  --logo-color-footer:#F4F4FD;
+  --bg-color: #FFFFFF ;
   --bg-color-secindary: #F4F4FD;
   --akcent-color: #4D5AE5;
   --hero-color: #2E2F42;
   --footer-color: #2E2F42;
   --footer-text:#F4F4FD;
+  --white:#FFFFFF ;
 }
 
 body {
@@ -58,19 +60,22 @@ body {
   background-color: var(--bg-color);
   margin: 0;
 }
+.link{
+  text-decoration: none;
+}
 /* ====================== HEADER =====================================*/
 .header{
   border-bottom: 1px solid #E7E9FC;
 }
 .logo{
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.166; 
+  line-height: 1.17; 
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--text-color);
+  color:var(--logo-color); 
 }
 .logo .acsent{
   color: var(--akcent-color);
@@ -159,7 +164,10 @@ body {
   background-color: var(--footer-color);
 }
 .footer .logo{
-  color: var(--footer-text);
+  color: var(--akcent-color);
+}
+.logo .acsent{
+  color: var(--logo-color-footer);
 }
 .footer .text{
   color:var(--footer-text);
