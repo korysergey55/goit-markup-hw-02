@@ -1,0 +1,191 @@
+/* ====================== Palette ==================================*/
+/* Main text color #2E2F42 */
+/* Secondory text color #434455 */
+/* Background #FFF */
+/* Footer #2E2F42 */
+/* Grid 1128 */
+
+/* ====================== Basic Reset =============================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+button{
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+/* ====================== Inheritance =============================*/
+:root {
+  --text-color: #2E2F42;
+  --text-color-secindary: #434455;
+  --white:#FFF;
+  --bg-color: #FFF;
+  --bg-color-secindary: #F4F4FD;
+  --akcent-color: #4D5AE5;
+  --hero-color: #2E2F42;
+  --footer-color: #2E2F42;
+  --footer-text:#F4F4FD;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 0;
+}
+/* ====================== HEADER =====================================*/
+.header{
+  border-bottom: 1px solid #E7E9FC;
+}
+.logo{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.166; 
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.logo .acsent{
+  color: var(--akcent-color);
+}
+.nav .link{
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
+.address .link{
+  line-height: 1.5; 
+  letter-spacing: 0.32px;
+  color: var(--text-color-secindary);
+}
+
+/* ====================== HERO ==========================================*/
+.hero{
+  background-color: var(--hero-color);
+}
+.hero .title{
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; 
+  letter-spacing: 1.12px;
+}
+.hero .button{
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 16px 32px;
+  border-radius: 4px;
+
+  font-weight: 500;
+  line-height: 1.5; 
+  letter-spacing: 0.64px;
+  
+  color: var( --bg-color);
+  background: var(--akcent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ====================== ADVANTAGES ==========================================*/
+.advantages .title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; 
+  letter-spacing: 0.4px;
+}
+.advantages .text{
+  color: var(--text-color-secindary);
+}
+
+/* ====================== WHAT WE ARE DOING ==========================================*/
+.doing .title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* ====================== OUR TEAM ==========================================*/
+.team{
+  background-color: var(--bg-color-secindary);
+}
+.team.title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team .name{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; 
+  letter-spacing: 0.4px;
+}
+.team .position{
+   color: var(--text-color-secindary);
+}
+
+/* ====================== FOOTER ==========================================*/
+.footer{
+  background-color: var(--footer-color);
+}
+.footer .logo{
+  color: var(--footer-text);
+}
+.footer .text{
+  color:var(--footer-text);
+}
+
+/* ====================== PORTFOLIO ==========================================*/
+/* ====================== BUTTONS ==========================================*/
+.buttons .button{
+  padding:12px 24px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  color: var(--akcent-color);
+  background-color: var(--bg-color-secindary);
+}
+.buttons .button:hover, .button:focus{
+  color: var(--white);
+  background-color: #404BBF;
+}
+/* ====================== CARDS ==========================================*/
+.cards .title{
+  font-size: 20px;
+  line-height: 1.2; 
+  letter-spacing: 0.4px
+}
+.cards .text{
+  color: var(--text-color-secindary);
+}
