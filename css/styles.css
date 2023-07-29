@@ -155,7 +155,7 @@ body {
 
 /* ====================== OUR TEAM ==========================================*/
 .team{
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-secindary);
 }
 .team .title{
   font-size: 36px;
@@ -166,11 +166,15 @@ body {
   text-transform: capitalize;
   color: var(--text-color-secindary);
 }
+.team .item{
+  background-color: var(--bg-color);
+}
 .team .name{
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; 
   letter-spacing: 0.02em;
+  color: var(--text-color-secindary);
 }
 .team .position{
    color: var(--text-color);
@@ -208,6 +212,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border: 1px solid #E7E9FC;
   color: var(--akcent-color);
@@ -220,9 +225,14 @@ body {
 /* ====================== CARDS ==========================================*/
 .card .title{
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2; 
-  letter-spacing: 0.4px
+  letter-spacing: 0.02em;
+  color: var(--text-color-secindary);
 }
 .card .text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-secindary);
 }
