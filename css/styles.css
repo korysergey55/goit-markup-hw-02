@@ -16,7 +16,6 @@ p {
   margin: 0;
 }
 ul,ol {
-  padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
@@ -50,7 +49,6 @@ button{
   --hero-color:#2E2F42;
   --footer-color:#2E2F42;
   --footer-text:#F4F4FD;
-  --white:#FFFFFF ;
 }
 
 body {
@@ -69,7 +67,7 @@ body {
 }
 /* ====================== HEADER =====================================*/
 .header{
-  border-bottom: 1px solid #E7E9FC;
+  /* border-bottom: 1px solid #E7E9FC; */
 }
 .header .nav .logo-header{
   font-family: Raleway, sans-serif;
@@ -111,7 +109,7 @@ body {
   background-color: var(--hero-color);
 }
 .hero .title{
-  color: var(--white);
+  color: var(--bg-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -157,13 +155,14 @@ body {
 
 /* ====================== OUR TEAM ==========================================*/
 .team{
-  background-color: var(--bg-color-secindary);
+  background-color: var(--bg-color);
 }
 .team .title{
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; 
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: var(--text-color-secindary);
 }
@@ -171,10 +170,10 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; 
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .team .position{
-   color: var(--text-color-secindary);
+   color: var(--text-color);
 }
 
 /* ====================== FOOTER ==========================================*/
@@ -205,7 +204,7 @@ body {
 
 /* ====================== PORTFOLIO ==========================================*/
 /* ====================== BUTTONS ==========================================*/
-.buttons-list .button{
+.list .button{
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -215,15 +214,15 @@ body {
   background-color: var(--bg-color-secindary);
 }
  .button:hover, .button:focus{
-  color: var(--white);
+  color: var(--bg-color);
   background-color: #404BBF;
 }
 /* ====================== CARDS ==========================================*/
-.cards .title{
+.card .title{
   font-size: 20px;
   line-height: 1.2; 
   letter-spacing: 0.4px
 }
-.cards .text{
+.card .text{
   color: var(--text-color-secindary);
 }
